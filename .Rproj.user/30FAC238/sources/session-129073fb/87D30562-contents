@@ -1,0 +1,7 @@
+#install.packages("usethis")
+install.packages("lintr")
+library(usethis)
+library(lintr)
+lint("main.R") 
+# javadaki controllerda fonksiyonu yazdıktan sonra önerilenlerde lambda ile yazılmasını yani genelde bu şekilde yapılıyor. öneri verir
+# kısacası genelde nasıl yapılıyorsa onu önerir
